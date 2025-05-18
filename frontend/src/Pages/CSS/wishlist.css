@@ -1,0 +1,82 @@
+.wishlist{
+   display: grid;
+   grid-template-columns: repeat(4,1fr);
+   font-family: "Poppins",sans-serif;
+   gap: 10px;
+   justify-content: center;
+   align-items: center;
+   margin-left: 8%;
+   margin-top: 3%;
+}
+.wishlist .wihlist_cart{
+    border: 2px solid black;
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    border-radius: 5px;
+    width: 280px;
+    height: 300px;
+    display: block;
+    justify-content: center;
+    align-items: center;
+}
+.wishlist .wihlist_cart .prod_img_wishlist{
+    width: 100px;
+    height:80px;
+    margin-left: 30%;
+    margin-top: 10%;
+}
+.wishlist .wihlist_cart .title_prod{
+    font-size: 15px;
+    font-weight: 500;
+    color: black;
+    text-align: center;
+    margin-top: 2%;
+}
+.wishlist .wihlist_cart .prices{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 78px;
+    margin-top: 5%;
+    font-size: 15px;
+    font-weight: 500;
+}
+.wishlist .wihlist_cart .prices .newPrice{
+    color: red;
+}
+.wishlist .wihlist_cart .prices .oldPrice{
+    color: grey;
+    text-decoration: line-through;
+}
+.wishlist_title{
+    display: flex;
+    justify-content: left;
+    align-items: start;
+    margin-left: 10%;
+    font-size: 35px;
+    font-family: "Poppins",sans-serif;
+    font-weight: 600;
+    letter-spacing: 0.2rem;
+    color: #000;
+    margin-top: 2%;
+}
+.wishlist .wihlist_cart .addtocart{
+    border: none;
+    outline: none;
+    background-color: black;
+    color: white;
+    width: 280px;
+    height: 45px;
+    margin-top: 19%;
+    border-radius:3px;
+    
+}
+.wishlist .wihlist_cart .bi-x{
+    margin-bottom: 5%;
+    border: 2px solid rgb(0, 0, 0,0);
+    background-color: white;
+    border-radius: 5px;
+    width: 180px;
+    height: 100px;
+  
+}

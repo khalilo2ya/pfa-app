@@ -1,0 +1,105 @@
+.NewCollections{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    padding: 16px 48px;
+}
+.NewCollections .collections_title{
+    font-family: 'Poppins',sans-serif;
+    font-weight: 600;
+    font-size: 45px;
+    color:black;
+    text-align: center;
+    justify-content: center;
+    margin-top: 3%;
+}
+.NewCollections hr{
+    background-color: rgb(71, 0, 0);
+    width: 20%;
+    height: 1px;
+    border-radius: 2px;
+    background-color: #252525;
+    
+}
+
+.collection .prod_name{
+    color: black;
+    font-family: 'Poppins',sans-serif;
+    font-size: 15px;
+    font-weight: 700;
+    justify-content: center;
+    text-align: center;
+    margin-top: 5%;
+}
+
+.collection{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr ;
+    margin-top: 8px;
+    gap:20px;
+    
+}
+.collection img {
+    width: 180px;
+    margin-left: 10%;
+    margin-top: 8%;
+
+}
+.collection .product-card{
+    border: 2px solid black ;
+    background-color: white;
+    padding: 16px 48px;
+}
+.collection .price{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 82px;
+    font-family: "Poppins",sans-serif;
+    font-weight: 500;
+}
+.collection .price .product_old_price{
+    color: grey;
+    text-decoration: line-through;
+}
+.collection .price .product_new_price{
+    color: red;
+
+}
+.Add_to_cart{
+    background-color: white;
+    border: 2px solid black;
+    font-family: "Poppins",sans-serif;
+    width: 180px;
+    height: 50px;
+    justify-content: center;
+    align-items: center;
+    margin-left: 18px;
+    margin-top: 10%;
+}
+.bi-cart{
+    margin-left: 5%;
+}
+
+.add_cart_favorite{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    
+}
+.bi-heart{
+    margin-top: 70%;
+}
+.bi-heart:hover{
+    color: red;
+    width: 18px;
+    height: 18px;
+}
+.favorite:active{
+    color: red;
+    width: 19px;
+    height: 19px;
+    
+}

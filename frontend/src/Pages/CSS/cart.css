@@ -1,0 +1,112 @@
+.carts{
+    display: flex;
+    flex-direction: column;
+    margin-top: 5%;
+    width: 980px;
+    margin-left: 15%;
+    justify-content: center;
+    align-items: center;
+   
+    font-family: "Poppins",sans-serif;
+    font-weight: 400;
+}
+.carts .head{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    gap: 180px;
+    border: 2px solid white ;
+    color: #000;
+    background-color: transparent;
+    width: 900px;
+    height: 72px;
+    align-items: center;
+    box-shadow: 0 3px 5px 0 rgba(181, 158, 158, 0.2), 0 3px 4px 0 rgba(177, 159, 159, 0.19);
+    text-align: center;
+    
+}
+
+.carts .cart_info{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    
+    border: 2px solid white ;
+    color: #000;
+    background-color: transparent;
+    width: 900px;
+    height: 72px;
+    align-items: center;
+    box-shadow: 0 3px 5px 0 rgba(181, 158, 158, 0.2), 0 3px 4px 0 rgba(177, 159, 159, 0.19);
+    text-align: center;
+    margin-top: 2%;
+}
+.carts .cart_info {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    gap: 200px;
+}
+
+
+.prod_img_cart{
+    width: 40px;
+    height: 40px;
+    margin-left: 50%;
+   
+}
+
+.Return{
+    width: 180px;
+    height: 50px;
+    border:1px solid #000;
+    background-color: #fff;
+    font-family: "Poppins",sans-serif;
+    font-size: 15px;
+    font-weight: 500;
+    border-radius:5px;
+   
+
+}
+.checkout{
+    width: 230px;
+    height: 50px;
+    border: none;
+    outline: none;
+    background-color: #ea4e4e;
+    color: white;
+    font-family: "Poppins",sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+    border-radius: 5px;
+}
+.button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2%;
+    gap: 490px;
+}
+.coupons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+    margin-top: 10%;
+    
+}
+.input_coupon{
+    width: 250px;
+    height: 50px;
+    border: none;
+    outline: none;
+    background-color: rgb(241, 238, 238);
+    font-size: 15px;
+    color: white;
+}
+.btn_couppon{
+    width: 100px;
+    height: 50px;
+    border: none;
+    outline: none;
+    background-color: rgb(255, 0, 0);
+    font-size: 15px;
+    color: white;
+}

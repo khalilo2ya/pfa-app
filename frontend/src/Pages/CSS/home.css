@@ -1,0 +1,138 @@
+.home{
+    display: grid;
+    grid-template-columns: 1fr 4fr;
+    gap: 10px; 
+    width: 100%;
+    padding: 40px;
+    
+}
+.sidebar {
+    display: flex;
+    flex-direction: column; 
+    gap: 10px;
+  }
+  
+.hero{
+    display: flex;
+    align-items: center; 
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 1080px;
+    height: 450px;
+    margin: 0 auto; 
+}
+.heroleft{
+    flex:1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap:2px;
+    padding-left: 20px;
+    line-height: 1.1;
+}
+.heroleft .icon{
+    margin-top:5%;
+    width: 30px;
+    height: 35px;
+    margin-left: 20%;
+}
+.heroleft .slogan{
+    margin-left: 13%;
+    font-size: 16px;
+}
+.heroleft .title{
+    font-size: 70px;
+    justify-content: center;
+    margin-left: 85px;
+}
+.heroleft .shop_btn{
+    border-radius: 3px;
+    width: 180px;
+    height: 50px;
+    background-color:transparent;
+    color: white;
+    outline: none;
+    cursor: pointer;
+    margin-top: 5%;
+    margin-bottom: 3%;
+    margin-left: 18%;
+    -webkit-transition: all 0.2s linear 0s;
+    transition: all 0.2s linear 0s;
+}
+
+.bi-arrow{
+    margin-left: 8%;
+}
+.heroleft .shop_btn:hover{
+    text-decoration: underline white;
+    text-indent: -20px;
+}
+.heroleft .shop_btn:hover::before{
+    opacity: 1;
+    text-indent: 0px;
+}
+
+.heroright img{
+    width: 450px;
+    height: 300px;
+    margin-top: 8%;
+    margin-left: 20px;
+}
+.banner{
+    display: flex;
+    align-items: center; 
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 1200px;
+    height: 600px;
+    margin: 0 auto; 
+    background-color: black;
+    color: white;
+    margin-top: 3%;
+    margin-left: 13%;
+}
+.LeftBanner{
+    flex:1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap:2px;
+    padding-left: 10px;
+    line-height: 1.1;
+}
+.LeftBanner span{
+    color: rgb(117, 189, 8);
+    font-family: "Poppins",sans-serif;
+    font-size: 15px;
+    font-weight: 500;
+    margin-left: 3%;
+  
+    
+}
+.LeftBanner p{
+    font-family: "Poppins",sans-serif;
+    font-size: 68px;
+    font-weight: 700;
+    margin-left: 3%;
+    
+}
+.LeftBanner button{
+    width: 150px;
+    height: 50px;
+    background-color: rgb(117, 194, 1);
+    color: white;
+    font-family: "Popins",sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    margin-top: 2%;
+    cursor: pointer;
+    margin-left: 3%;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+}
+.rightBanner img{
+    width: 550px;
+    height: 300px;
+}
+

@@ -1,0 +1,50 @@
+.About{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "Poppins",sans-serif;
+    margin-top: 2%;
+    
+}
+.Story span{
+    font-size: 40px;
+    margin-left:10%;
+    font-weight: 600;
+    color: rgb(106, 0, 0);
+}
+.Story p{
+    justify-content: left;
+    text-align: left;
+    font-size: 18px;
+    margin-left: 10%;
+    font-weight: 400;
+    color: black;
+    margin-right: 15%;
+}
+.right_img img{
+    width: 650px;
+    height: 550px;
+}
+.CARD{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    font-family: "Poppins",sans-serif;
+    gap: 2%;
+    margin-top: 5%;
+}
+.cards{
+    background-color: white;
+    border:1px solid rgb(121, 119, 119);
+    width: 200px;
+    height: 200px;
+}
+.icons{
+    display: block;
+    justify-content: center;
+    align-items: center;
+}
+.icons .shop{
+    margin-left: 40%;
+}

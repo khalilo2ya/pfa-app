@@ -1,0 +1,113 @@
+.contact{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "Poppins",sans-serif;
+    margin-top: 5%;
+    gap: 68px;
+    color: #000;
+}
+.infos{
+    border: 1px solid ;
+    border-color:white;
+    box-shadow: white;
+    display: block; 
+    box-shadow: 10px 5px 5px rgb(209, 206, 206);
+}
+.infos .title{
+    display: flex;
+    gap: 10px;   
+}
+.infos .tel{
+    border-radius: 50%;
+    background-color: red;
+    width: 50px;
+    
+}
+.bi-telephone{
+    justify-content: center;
+    align-items: center;
+    margin-left: 32%;
+    margin-top: 30%;
+    color: white;
+}
+.info2 span{
+    display: block;
+    font-size: 16px;
+    margin-top: 5%;
+}
+.infos .title span{
+    font-size: 30px;
+    font-weight: 600;
+    letter-spacing: 0.3rem;
+}
+.hr{
+    width:400px;
+    height: 2px;
+    border-radius: 5%;
+    justify-content: center;
+    align-items: center;
+    margin-left: 3%;
+}
+.Title2{
+    display: flex;
+    gap: 10px;
+   
+}
+.Title2 span{
+    font-size: 30px;
+    letter-spacing: 0.3rem;
+    font-weight: 600;
+}
+.mail{
+    border-radius: 50%;
+    background-color: red;
+    width: 50px;
+    height: 50px;
+    
+}
+.bi-envelope{
+    justify-content: center;
+    align-items: center;
+    margin-left: 33%;
+    margin-top: 35%;
+    color: white;
+}
+.forms{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 10px 5px 5px rgb(209, 206, 206);
+    width: 725px;
+    height: 500px;
+}
+.forms input{
+    background-color: rgb(227, 226, 226);
+    width: 203px;
+    height: 45px;
+    border: none;
+    outline: none;
+    font-size: 15px;
+}
+.forms textarea{
+    width: 635px;
+    border: none;
+    outline: none;
+    background-color: rgb(227, 226, 226);
+    margin-top: 5%;
+    font-size: 15px;
+}
+.submit{
+    display: block;
+    margin-left: 77%;
+    width: 150px;
+    height: 50px;
+    background-color: red;
+    border: none;
+    outline: none;
+    color: white;
+    font-size: 16px;
+}
+.submit:hover{
+    background-color: rgb(248, 108, 108);
+}

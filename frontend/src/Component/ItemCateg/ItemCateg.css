@@ -1,0 +1,37 @@
+
+.ItemCateg {
+    margin-top: 5%;
+    width: 200px;
+    height: 200px;
+    background-color: rgba(255, 255, 255, 0.5); 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); 
+    padding: 16px; 
+    transition: transform 0.2s, box-shadow 0.2s; 
+}
+
+.ItemCateg:hover {
+    background-color: #e83c3c;
+    box-shadow: 0 8px 16px rgba(255, 0, 0, 0.3);
+}
+.ItemCateg img{
+    width: 100px;
+    height: 100px;
+    margin-left: 25%;
+    margin-top: 20%;
+
+
+}
+.ItemCateg{
+    background-color:rgb(255, 255, 255);
+}
+
+.titleCat {
+    margin-left: 20%;
+    font-family: "Poppins",sans-serif;
+    color: #000000;
+    font-size: 16px;
+    font-weight: 600;
+    margin-left: 1%;
+    justify-content: center;
+    text-align: center;
+}   
